@@ -1,0 +1,58 @@
+body {
+  background: white;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+header, footer {
+  color: #4d4d4d;
+}
+
+header ul, footer ul {
+  list-style: none;
+  display: inline-block;
+}
+
+header ul li, footer ul li {
+  display: inline-block;
+}
+
+header ul {
+  position: relative;
+}
+
+.l_stuff {
+  position: relative;
+  left: -31px;
+  top: 3px;
+}
+
+.r_stuff {
+  position: relative;
+  top: 3px;
+  left: 850px;
+}
+
+.navbar ul li {
+  margin: 0 8px;
+}
+
+#logo {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 272px;
+  top: 150px;
+}
+
+#searchbar {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 520px;
+  height: 17px;
+  top: 177px;
+  box-shadow: 0px 1px 8px #d9d9d9;
+  border: 1px solid #d9d9d9;
+  padding: 10px 15px;
+}

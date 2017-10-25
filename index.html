@@ -6,23 +6,27 @@
     <link href="styles/main.css" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="navbar">
       <ul>
-        <li>About</li>
-        <li>Store</li>
+        <li class="l_stuff">About</li>
+        <li class="l_stuff">Store</li>
       </ul>
       <ul>
-        <li>Gmail</li>
-        <li>Images</li>
+        <li class="r_stuff">Gmail</li>
+        <li class="r_stuff">Images</li>
+        <li class="r_stuff">OO</li>
+        <li class="r_stuff"><input type="submit" value="Sign In"></li>
       </ul>
     </header>
-    <img src="images/google_logo.png" width=272px>
+    <img id="logo" src="images/google_logo.png">
     <form action="#" method="post">
-      <input type="text">
+      <input id="searchbar" type="text">
+      <br>
+      <br>
       <input type="submit" value="Google Search">
       <input type="submit" value="I'm Feeling Lucky">
     </form>
-    <footer>
+    <footer class="navbar">
       <ul>
         <li>Advertising</li>
         <li>Business</li>
