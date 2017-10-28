@@ -155,6 +155,6 @@ input {
   padding: 8px 13px;
 }
 
-#apps:hover {
-  color: #000;
+#googleapps:hover {
+  opacity: 1;
 }
