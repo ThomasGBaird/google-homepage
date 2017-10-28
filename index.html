@@ -3,41 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Google</title>
+    <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
   </head>
   <body>
-    <header class="navbar">
-      <ul>
-        <li class="l_stuff">About</li>
-        <li class="l_stuff">Store</li>
-      </ul>
-      <ul>
-        <li class="r_stuff">Gmail</li>
-        <li class="r_stuff">Images</li>
-        <li class="r_stuff">OO</li>
-        <li class="r_stuff"><input type="submit" value="Sign In"></li>
-      </ul>
-    </header>
-    <img id="logo" src="images/google_logo.png">
-    <form action="#" method="post">
-      <input id="searchbar" type="text">
-      <br>
-      <br>
-      <input type="submit" value="Google Search">
-      <input type="submit" value="I'm Feeling Lucky">
-    </form>
-    <footer class="navbar">
-      <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-      </ul>
-      <ul>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-    </footer>
-
-
-
+    <div class="header">
+      <div class="left">
+        <ul>
+          <li class="clickhl"><a href="">About</a></li>
+          <li class="clickhl"><a href="">Store</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li class="clickhr"><a href="">Gmail</a></li>
+          <li class="clickhr"><a href="">Images</a></li>
+          <li class="clickhr"><a href="">Apps</a></li>
+          <li class="clickhr"><input type="submit" value="Sign In">
+        </ul>
+      </div>
+    </div>
+    <img id="logo" src="images/google_logo.png" width=270px alt="Google Logo">
+    <div class="searchbar">
+      <form action="#" method="post">
+        <input id="inputbar" type="text">
+      </form>
+    </div>
+    <div class="searchbutton">
+      <form action="#" method="post">
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm Feeling Lucky">
+      </form>
+    </div>
+    <div class="footer">
+      <div class="left">
+        <ul>
+          <li class="clickfl"><a class="footlink" href="">Advertising</a></li>
+          <li class="clickfl"><a class="footlink" href="">Business</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li class="clickfr"><a class="footlink" href="">Privacy</a></li>
+          <li class="clickfr"><a class="footlink" href="">Terms</a></li>
+          <li class="clickfr"><a class="footlink" href="">Settings</a></li>
+      </div>
+    </div>
   </body>
 </html>
