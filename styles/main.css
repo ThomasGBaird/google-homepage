@@ -1,58 +1,112 @@
-body {
-  background: white;
-  font-family: arial, sans-serif;
-  font-size: small;
+html {
+  display: block;
+
 }
 
-header, footer {
+body {
+  display: block;
+  font-size: small;
+  font-family: arial, sans-serif;
   color: #4d4d4d;
 }
 
-header ul, footer ul {
-  list-style: none;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  display: block;
+}
+
+.header, .footer {
+  display: inline-block;
+  position: absolute;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.clickhl, .clickhr, .clickfl, .clickfr {
   display: inline-block;
 }
 
-header ul li, footer ul li {
-  display: inline-block;
+.left {
+  float: left;
 }
 
-header ul {
-  position: relative;
-}
-
-.l_stuff {
-  position: relative;
-  left: -31px;
-  top: 3px;
-}
-
-.r_stuff {
-  position: relative;
-  top: 3px;
-  left: 850px;
-}
-
-.navbar ul li {
-  margin: 0 8px;
+.right {
+  float: right;
 }
 
 #logo {
-  position: relative;
-  display: block;
-  margin: auto;
-  width: 272px;
-  top: 150px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -135px;
 }
 
-#searchbar {
-  position: relative;
-  display: block;
-  margin: auto;
-  width: 520px;
-  height: 17px;
-  top: 177px;
-  box-shadow: 0px 1px 8px #d9d9d9;
+input {
+  border-radius: 2px;
+}
+
+#inputbar {
+  position: absolute;
+  width: 440px;
+  top: 326px;
+  padding: 12px 20px;
+  box-shadow: 0 1px 1px 1px #d9d9d9;
   border: 1px solid #d9d9d9;
-  padding: 10px 15px;
+}
+
+.searchbar {
+  position: absolute;
+  left: 50%;
+  margin-left: -240px;
+}
+
+.searchbutton {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: -131px;
+}
+
+.searchbutton form input {
+  border: 1px solid #f2f2f2;
+  color: #737373;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 13px;
+  margin: 0px 2px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e6e6e6;
+  padding: 13.5px 25px;
+}
+
+.footlink {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.footer .left ul {
+  position: relative;
+  left: -8px;
+  bottom: 1px;
+}
+
+.footer .right ul {
+  position: relative;
+  right: -8px;
+  bottom: 1px;
 }
